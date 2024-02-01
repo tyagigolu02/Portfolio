@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepanshu - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 33);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(153, 153, 226);
+    font-size: 1.04rem;
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+.left{
+    font-size: 1.5rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+}
+.firstSection div{
+    width: 100%;
+}
+.leftSection{
+    
+    font-size: 2.5rem;
+    margin-top: 10%;
+    margin-left: 10%;
+    
+}
+.rightSection img{
+    margin-right: 2%;
+   
+   
+}
+.purple{
+    color: rgb(148, 57, 232);
+}
+.text-gray{
+    color: gray;
+}
+#element{
+    color: rgb(148, 57, 232);
+
+}
+.secondSection{
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.secondSection h1{
+    font-size: 1.9rem;
+}
+.secondSection .box{
+    background: white;
+    width: 79vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondSection .vertical{
+    height: 0px;
+    width: 1px;
+    background-color: white;
+    display: flex;
+    margin: 0 80px;
+}
+.image-top{
+    height: 50px;
+    width: 30px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+.vertical-title{
+    position: relative;
+    top: 10px;
+    left: -10px;
+    width: 150px;
+    font-size: 14px;
+
+
+
+}
+.vertical-desc{
+    position: relative;
+    top: 120px;
+    left: -70px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+
+}
+footer{
+    background-color:rgb(47, 19, 47);
+    color: gray;
+    padding: 12px;
+
+}
+.footer{
+    display: flex;
+   padding: 23px 122px;
+   justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer >div{
+    width: 123px;
+}
+footer .footer-rights{
+    text-align: center;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Deepanshu's  Portfolio</div>
+            <div class="right">
+                <ul>
+                   <li> <a href="/"> Home </a></li>
+                   <li> <a href="/"> About</a></li>
+                   <li> <a href="/"> Services</a></li>
+                   <li> <a href="/"> Projects</a></li>
+                   <li> <a href="/"> Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Deepanshu Tyagi.</span>
+                <div>& I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            
+            <div class="rightSection">
+                <img src="developer.png"
+                width="80%"
+                margin: 50px 0;
+            </div>
+            
+        </section>
+        <hr>
+
+        <section class="secondSection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="html.png" alt="">
+                <div class="vertical-title">
+                    HTML Developer (2021-Present)
+                </div>
+                <div class="vertical-desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical">
+                    <img class="image-top" src="node.png" alt="">
+                    <div class="vertical-title">
+                        Node.js Developer (2021-Present)
+                    </div>
+                    <div class="vertical-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                    </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical">
+                    <img class="image-top" src="fb.jfif" alt="">
+                    <div class="vertical-title">
+                        
+                        Facebook (2021-Present)
+                    </div>
+                    <div class="vertical-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                    </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical">
+                    <img class="image-top" src="x.jfif" alt="">
+                    <div class="vertical-title">
+                        Twitter (X) (2021-Present)
+                    </div>
+                    <div class="vertical-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                    </div>
+            </div>
+            <div class="vertical">
+                <div class="vertical">
+                    <img class="image-top" src="lin.jfif" alt="">
+                    <div class="vertical-title">
+                        LinkedIn (2021-Present)
+                    </div>
+                    <div class="vertical-desc">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                    </div>
+            </div>
+            
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Deepanshu's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>HOME</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>HOME</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>HOME</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            CopyRights&#169;deepanshusportfoliio.com |ALL RIGHTS RESERVED
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor.'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
