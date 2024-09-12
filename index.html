@@ -5,287 +5,317 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepanshu - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-body{
-    background-color: rgb(0, 0, 33);
-    color: white;
-    font-family: 'Poppins', sans-serif;
-}
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 80px;
-    background-color: rgb(18, 18, 33);
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-
-}
-nav ul li{
-    list-style: none;
-    margin: 0 23px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: white;
-}
-nav ul li a:hover{
-    text-decoration: none;
-    color: rgb(153, 153, 226);
-    font-size: 1.04rem;
-}
-main hr{
-    border: 0;
-    background: #9c97f1;
-    height: 1.2px;
-    margin: 60px 84px;
-}
-.left{
-    font-size: 1.5rem;
-}
-.firstSection{
-    display: flex;
-    justify-content: space-around;
-    margin: 120px 0;
-}
-.firstSection div{
-    width: 100%;
-}
-.leftSection{
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     
     
-    font-size: 2.5rem;
-    margin-top: 10%;
-    margin-left: 10%;
-    
-}
-.rightSection img{
-    margin-right: 2%;
-   
-   
-}
-.purple{
-    color: rgb(148, 57, 232);
-}
-.text-gray{
-    color: gray;
-}
-#element{
-    color: rgb(148, 57, 232);
-
-}
-.secondSection{
-    max-width: 80vw;
-    margin: auto;
-    height: 80vh;
-}
-.secondSection h1{
-    font-size: 1.9rem;
-}
-.secondSection .box{
-    background: white;
-    width: 79vw;
-    height: 2px;
-    margin: 56px 0;
-    display: flex;
-}
-.secondSection .vertical{
-    height: 0px;
-    width: 1px;
-    background-color: white;
-    display: flex;
-    margin: 0 80px;
-}
-.image-top{
-    height: 50px;
-    width: 30px;
-    position: relative;
-    top: -50px;
-    left: 30px;
-}
-.vertical-title{
-    position: relative;
-    top: 10px;
-    left: -10px;
-    width: 150px;
-    font-size: 14px;
-
-
-
-}
-.vertical-desc{
-    position: relative;
-    top: 120px;
-    left: -70px;
-    color: gray;
-    width: 150px;
-    font-size: 9px;
-
-}
-footer{
-    background-color:rgb(47, 19, 47);
-    color: gray;
-    padding: 12px;
-
-}
-.footer{
-    display: flex;
-   padding: 23px 122px;
-   justify-content: space-evenly;
-}
-.footer ul{
-    list-style: none;
-}
-.footer >div{
-    width: 123px;
-}
-footer .footer-rights{
-    text-align: center;
-
-}
-    </style>
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">Deepanshu's  Portfolio</div>
+            <div class="left">DEEPANSHU TYAGI</div>
             <div class="right">
                 <ul>
-                   <li> <a href="/"> Home </a></li>
-                   <li> <a href="/"> About</a></li>
-                   <li> <a href="/"> Services</a></li>
-                   <li> <a href="/"> Projects</a></li>
-                   <li> <a href="/"> Contact Me</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
                 </ul>
             </div>
         </nav>
     </header>
 
+
+
+    
+
     <main>
+        
         <section class="firstSection">
             <div class="leftSection">Hi, My name is <span class="purple">Deepanshu Tyagi.</span>
-                <div>& I am a passionate</div>
-                <span id="element"></span>
-            </div>
+                <div>& I am a </div>
+                     <span id="element"></span>
+                     <button class="my-button">HIRE ME</button>
+                </div>
             
-            <div class="rightSection">
-                <img src="developer.png"
-                width="80%"
-                margin: 50px 0;
-            </div>
-            
+             <div class="rightSection">
+                 <img src="developer.png" 
+                    
+             </div>
         </section>
-        <hr>
+         
+        
 
-        <section class="secondSection">
-            <span class="text-gray">What I have done so far</span>
-            <h1>Work Experience</h1>
 
-            <div class="box">
-            <div class="vertical">
-                <img class="image-top" src="html.png" alt="">
-                <div class="vertical-title">
-                    HTML Developer (2021-Present)
-                </div>
-                <div class="vertical-desc">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
-                </div>
-            </div>
-            <div class="vertical">
-                <div class="vertical">
-                    <img class="image-top" src="node.png" alt="">
-                    <div class="vertical-title">
-                        Node.js Developer (2021-Present)
+        <section id="about">
+                <div class="container">
+                    <div class="about-me-content">
+                        <div class="photo">
+                            <img src="tyagi.jpg" alt="Your Name">
+                        </div>
+                        <div class="details">
+                            <h2>About Me</h2>
+                            <p>Hi, I'm <span class="purple">Deepanshu Tyagi</span>, 
+                               <p>a passionate </p>
+                               <span id="content"></span>
+                                
+                            
+                             <p> a knack for creating stunning and functional websites. With expertise in HTML, CSS, and JavaScript, I love bringing ideas to life on the web. When I'm not coding, you can find me exploring new technologies, reading, or enjoying a good cup of coffee.</p>
+                            <p>Feel free to check out my work and get in touch if you'd like to collaborate!</p>
+                            <button class="my-button">Download Resume</button>
+                        </div>
                     </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
+                </div>
+            </section>
+
+        
+            <section id="services">
+                
+              <div class="container">
+                  <h2>My Services</h2>
+                  <h3>-<span class="purple">What I Provide?</span>-</h3>
+        
+                  <div class="service-cards">
+                    <div class="service-card">
+                        <h3>Web Design</h3>
+                        <p>Your Next Web Developer, who is working in Shopify Dropshipping Stores, High Converting Ecommerce stores, Product Page also having Custom code, liquid template design.</p>
                     </div>
+                    <div class="service-card">
+                        <h3>User Secret</h3>
+                        <p>I ensure that there is no sensitive data included in the source code and are stored outside of the project folder. And all the data which is stored by User Secrets is not encrypted.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3>Apps Design</h3>
+                        <p>I encompasses both the user interface(UI) & user experience (UX). The overall style of the app, including things like the color scheme, font selection, and the types of buttons and widgets which will use.</p>
+                    </div>
+                </div>
+              </div>
+            </section>
+ 
+
+
+            <section id="skills">
+                <div class="container">
+                     <h2>My Skills</h2>
+                     <h3>-<span class="purple">What I Know?</span>-</h3>
+                
+                     
+                  
+                <div class="progress-bar-container">
+                    <div class="progress-bar">
+                      <div class="progress-bar-fill" style="width: 80%;"></div>
+                      <span class="progress-bar-label">Java</span>
+                      
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-bar-fill" style="width: 90%;"></div>
+                      <span class="progress-bar-label">HTML</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-bar-fill" style="width: 80%;"></div>
+                      <span class="progress-bar-label">CSS</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-bar-fill" style="width: 70%;"></div>
+                      <span class="progress-bar-label">JavaScript</span>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress-bar-fill" style="width: 80%;"></div>
+                      <span class="progress-bar-label">Python</span>
+                    </div>
+                
+                </div>
+
+             </div>
+             </section>
+
+
+            <section id="project">
+                <div class="container">
+                    <h2>My Projects</h2>
+                    <h3>-<span class="purple">What I did?</span>-</h3>
+                </div>
+             <div class="slideshow-container">
+                <div class="swiper-wrapper">
+                    <div class="mySlides fade">
+                        <img src="portfolio.jpg" alt="Portfolio image">
+                        <h3><span class="purple">Portfolio</span></h3>
+                        <p>Developed a fully responsive and dynamic website for a client in the tech industry. The project aimed to enhance the client’s online presence and provide a seamless user experience across all devices.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="weather.jpg" alt="Weather App image">
+                        <h3><span class="purple">Weather App</span></h3>
+                        <p>This Weather App is built using HTML, CSS, and JavaScript. It allows users to search for the current weather conditions in any city worldwide. The app fetches real-time weather data from the OpenWeatherMap API and displays information such as temperature, weather description, and location.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="netflix.webp" alt="Netflix image">
+                        <h3><span class="purple">Netflix Clone</span></h3>
+                        <p>Developed a fully responsive and dynamic website for a client in the tech industry. The project aimed to enhance the client’s online presence and provide a seamless user experience across all devices.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="spotify.png" alt="Spotify image">
+                        <h3><span class="purple">Spotify Clone</span></h3>
+                        <p>Developed a Spotify clone web application that mimics the core functionalities and user interface of the popular music streaming service. The project aimed to provide users with a seamless music streaming experience, including features like browsing playlists, searching for songs, and playing music.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="hots.webp" alt="Hotstar image">
+                        <h3><span class="purple">Hotstar Clone</span></h3>
+                        <p>Developed a Hotstar clone web application that replicates the user interface and core functionalities of the popular streaming platform, Hotstar. The project aimed to provide users with a seamless streaming experience, including features like browsing content, searching for shows and movies, and streaming videos.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="est.jpg" alt="E-State image">
+                        <h3><span class="purple">E-State Website</span></h3>
+                        <p>This Real Estate Website is developed using HTML, CSS, and JavaScript. It provides a platform for users to explore, buy, and sell properties with ease.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="rst.jpg" alt="Restuarant image">
+                        <h3><span class="purple">Restuarant Website</span></h3>
+                        <p>Restaurant Website is developed using HTML,CSS & JS. It provides a comprehensive platform for users to explore the menu,make reservations & learn more about the restaurant.</p>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="jais.jpg" alt="JAI SHREE RAM image">
+                        <h3><span class="purple">JAI SHREE RAM</span></h3>
+                        <p><b>गरज उठे गगन सारा,समुंदर छोड़े अपना किनारा,</b> </p>
+                           <p><b>हिल जाए जहान सारा, जब गूंजे जय श्री राम का नारा,जय श्रीरामचंद्र की जय…</b></p>
+                    </div>
+                </div>
+               
             </div>
-            <div class="vertical">
-                <div class="vertical">
-                    <img class="image-top" src="fb.jfif" alt="">
-                    <div class="vertical-title">
+
+
+            </section>
+
+        <section id="contact">
+                
+            <div class="containers">
+                <h2>Contact Me</h2>
+                <h3>-<span class="purple">Get in Touch</span>-</h3>
+      
+                <div class="cards">
+                  <div class="container short-container">
+                      <h3><span class="purple">Address</span></h3>
+                     
+                      <p><b>Flat No:</b>31(2BHK),Green Wood City, Meerut<br>Pin:250005, Uttar Pradesh, India</p>
+                      <p><b>Email:</b> tyagigolu02@gmail.com</p>
+                      <p><b>Phone:</b> +91 8534892350  </p>
+                      <p><b>Whatsapp</b>: +91 8534892350 </p>
+                      
+                  </div>
+
+                  <div class="container big-container">
+                    
+                    <p><span class="purple">free to get in touch with me.</span> </p>
+                    <form id="card" action="mailto:tyagigolu02@gmail.com" method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required><br>
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject"><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="5" required></textarea><br>
+                        <button type="submit">Send Message</button>
                         
-                        Facebook (2021-Present)
+                    </form>
+                </div>
+                
+                
+              </div>
+                <div class="container new-container">
+                    <div class="social-media-icons">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-telegram"></i>
+                        <i class="fab fa-github"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-g mail"></i>
+                        
+                        
                     </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
-                    </div>
+                 </div>
             </div>
-            <div class="vertical">
-                <div class="vertical">
-                    <img class="image-top" src="x.jfif" alt="">
-                    <div class="vertical-title">
-                        Twitter (X) (2021-Present)
-                    </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
-                    </div>
-            </div>
-            <div class="vertical">
-                <div class="vertical">
-                    <img class="image-top" src="lin.jfif" alt="">
-                    <div class="vertical-title">
-                        LinkedIn (2021-Present)
-                    </div>
-                    <div class="vertical-desc">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quae numquam, laboriosam esse inventore eos facilis, accusamus saepe non quidem cum libero quos impedit maxime! Dolorum, architecto neque? Dolore, facere.
-                    </div>
-            </div>
-            
-            </div>
-        </section>
+          </section>
+        
+        
+     
     </main>
-
     <footer>
-        <div class="footer">
-            <div class="footer-first">
-                <h3>Deepanshu's Developer Portfolio</h3>
-            </div>
-            <div class="footer-second">
-                <ul>
-                    <li>HOME</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-third">
-                <ul>
-                    <li>HOME</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-            <div class="footer-fourth">
-                <ul>
-                    <li>HOME</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-rights">
-            CopyRights&#169;deepanshusportfoliio.com |ALL RIGHTS RESERVED
+        <div class="footer-content">
+            <p><span class="purple">Deepanshu Tyagi</span> © 2024  All rights reserved.</p>
+    
         </div>
     </footer>
+    
+
+    <script src="script.js"></script>
     
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Developer', 'Graphic Designer','Web Designer','Video Editor.'],
-          typeSpeed: 50,
+          strings: [' Full Stack Web Developer', 'Graphic Designer','UI/UX Designer','Video Editor','Content Creator.'],
+          loop: true,
+          typeSpeed: 150,
+        backSpeed: 80,
+        backDelay: 1000,
+        });
+        var typed = new Typed('#content', {
+          strings: [' Full Stack Web Developer', 'Graphic Designer','UI/UX Designer','Video Editor','Content Creator.'],
+          loop: true,
+          typeSpeed: 150,
+        backSpeed: 80,
+        backDelay: 1000,
         });
       </script>
+   <script> const form = document.getElementById('contact-form');
+
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+    
+       
+        const name = document.getElementById('NAME').value;
+        const email = document.getElementById('EMAIL').value;
+        const message = document.getElementById('MESSAGE').value;
+    
+        if (NAME === '' || EMAIL === '' || MESSAGE === '') {
+            alert('Please fill in all required fields.');
+            return;
+        }
+    
+        // Additional validation (e.g., email format) can be added here
+    
+        // Submit the form using AJAX or directly
+        form.submit();
+    });
+    </script>
+    <script>
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    slides[slideIndex-1].style.display = "block";  
+    setTimeout(showSlides, 5000); 
+}
+
+    </script>
     
 </body>
 </html>
+
+
+
